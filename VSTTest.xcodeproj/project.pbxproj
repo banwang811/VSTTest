@@ -15,6 +15,7 @@
 		A506D2422318FDCF00E09259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A506D2412318FDCF00E09259 /* main.m */; };
 		A506D24C2318FDCF00E09259 /* VSTTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A506D24B2318FDCF00E09259 /* VSTTestTests.m */; };
 		A506D2572318FDCF00E09259 /* VSTTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A506D2562318FDCF00E09259 /* VSTTestUITests.m */; };
+		A506D2672319024800E09259 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A506D2662319024800E09259 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A506D2522318FDCF00E09259 /* VSTTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSTTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A506D2562318FDCF00E09259 /* VSTTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTTestUITests.m; sourceTree = "<group>"; };
 		A506D2582318FDCF00E09259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A506D2652319024800E09259 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		A506D2662319024800E09259 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		A506D2312318FDCF00E09259 /* VSTTest */ = {
 			isa = PBXGroup;
 			children = (
+				A506D2642319023A00E09259 /* Source */,
 				A506D2322318FDCF00E09259 /* AppDelegate.h */,
 				A506D2332318FDCF00E09259 /* AppDelegate.m */,
 				A506D2352318FDCF00E09259 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				A506D2582318FDCF00E09259 /* Info.plist */,
 			);
 			path = VSTTestUITests;
+			sourceTree = "<group>";
+		};
+		A506D2642319023A00E09259 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A506D2652319024800E09259 /* Test.h */,
+				A506D2662319024800E09259 /* Test.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A506D2372318FDCF00E09259 /* ViewController.m in Sources */,
+				A506D2672319024800E09259 /* Test.m in Sources */,
 				A506D2422318FDCF00E09259 /* main.m in Sources */,
 				A506D2342318FDCF00E09259 /* AppDelegate.m in Sources */,
 			);
